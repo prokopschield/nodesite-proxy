@@ -50,3 +50,15 @@ export function proxy(from: string, to: string, options: Options = {}) {
 		});
 	});
 }
+
+export default proxy;
+module.exports = proxy;
+
+Object.defineProperties(proxy, {
+	default: {
+		get: () => proxy,
+	},
+	proxy: {
+		get: () => proxy,
+	},
+});

@@ -1,7 +1,7 @@
 {
 	"name": "nodesite-proxy",
 	"description": "Traffic outsite traffic to your app using nodesite.eu",
-	"version": "0.1.0-1",
+	"version": "0.1.0-2",
 	"main": "lib/index.js",
 	"bin": {
 		"nodesite-proxy": "lib/cli.js"
